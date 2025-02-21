@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Biblioteca - Acasă</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="lista.html">Lista Cărți</a>
+    <a href="recomandate.html">Lista Cărți Recomandate</a>
+    <a href="about.html">Despre mine</a>
+  </nav>
+
+  <main>
+    <h1>Bun venit în Biblioteca Digitală</h1>
+
+    <div class="input-container">
+      <input type="text" id="searchInput" placeholder="Caută carte în lista inițială" />
+      <button onclick="searchInitialBook()">Caută</button>
+    </div>
+
+   
+    <p id="searchResult"></p>
+
+   
+    <div class="input-container">
+      <input type="text" id="recommendInput" placeholder="Recomandă-mi o carte" />
+      <button onclick="recommendBook()">Recomandă</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Biblioteca Digitală © 2025</p>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

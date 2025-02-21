@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #FFE5EC, #FFF6F1); /* Roz -> Crem */
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  nav {
+    background-color: #FFBFCF; 
+    padding: 10px;
+  }
+  
+
+  nav a {
+    color: #ffffff;
+    background-color: #FF80A0; 
+    margin: 0 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-weight: 500; 
+  }
+  
+  nav a:hover {
+    background-color: #FF5A85;
+  }
+  
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+ 
+  h1 {
+    margin-bottom: 20px;
+    color: #D46C8F;
+  }
+  
+
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  
+  input, button {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #FFBFCF;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #FFF6F1;
+    color: #333;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #FF80A0;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #FF80A0;
+    color: #fff;
+  }
+  
+  
+  #initialBookList,
+  #recommendedList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  #initialBookList li,
+  #recommendedList li {
+    background-color: #FFF6F1;
+    border: 1px solid #FFBFCF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+ 
+  #searchResult {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  
+  footer {
+    background-color: #FFBFCF;
+    padding: 10px;
+    color: #fff;
+  }
+  
